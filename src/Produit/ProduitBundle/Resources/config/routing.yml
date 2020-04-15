@@ -1,0 +1,7 @@
+produit_produit:
+    resource: "@ProduitBundle/Resources/config/routing/produit.php"
+    prefix:   /produit
+
+produit_homepage:
+    path:     /
+    defaults: { _controller: ProduitBundle:Default:index }
